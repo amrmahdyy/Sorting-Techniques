@@ -24,16 +24,19 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[]heap=new int[7];
+        int[]heap={26,5,77,1,61,11,59,15,48,19};
         int currentIndex=0;
-//        System.out.println(Math.ceil((float)3/2)-1);
-        heap(heap,26,currentIndex++);
-        heap(heap,5,currentIndex++);
-        heap(heap,77,currentIndex++);
-        heap(heap,1,currentIndex++);
-        heap(heap,61,currentIndex++);
-        heap(heap,11,currentIndex++);
-        heap(heap,59,currentIndex++);
+        for(int i=0;i<heap.length;i++){
+            heap(heap,heap[i],currentIndex++);
+        }
+        System.out.println(Math.ceil((float)3/2)-1);
+//        heap(heap,26,currentIndex++);
+//        heap(heap,5,currentIndex++);
+//        heap(heap,77,currentIndex++);
+//        heap(heap,1,currentIndex++);
+//        heap(heap,61,currentIndex++);
+//        heap(heap,11,currentIndex++);
+//        heap(heap,59,currentIndex++);
 
 
 
