@@ -1,6 +1,11 @@
+//import jdk.vm.ci.meta.Local;
+
+import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.Date;
 
 public class QuckSort {
+
     static void swap(int[]arr,int i,int pIndex){
         int a=arr[i];
         arr[i]=arr[pIndex];
@@ -26,8 +31,14 @@ public class QuckSort {
         }
     }
     public static void main(String[]args){
-        int[]arr={7,2,1,6,5};
+        int[]arr={1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+        Date start=new Date();
+//        LocalDateTime start = LocalDateTime.now();
         quickSort(arr,0,arr.length-1);
+        Date end=new Date();
+        System.out.println(start.getTime()-end.getTime());
+//        LocalDateTime end = LocalDateTime.now();
+//        System.out.println(start.get);
         System.out.println(Arrays.toString(arr));
     }
 }
