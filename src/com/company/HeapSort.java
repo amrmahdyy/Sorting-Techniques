@@ -3,12 +3,19 @@ package com.company;
 import java.util.Arrays;
 
 public class HeapSort {
-    static void swapTwoNums(int[]arr,int index1,int index2){
+    public  int[] sort(int[]arr){
+        int currentIndex=0;
+        for(int i=0;i<arr.length;i++){
+            heap(arr,arr[i],currentIndex++);
+        }
+        return heapify(arr);
+    }
+    private static void swapTwoNums(int[]arr,int index1,int index2){
         int temp = arr[index1];
         arr[index1] = arr[index2];
         arr[index2] = temp;
     }
-    static void swap(int[]heap,int currentIndex){
+    private static void swap(int[]heap,int currentIndex){
         if(currentIndex<=0)return;
         else {
             int child = heap[currentIndex];
@@ -19,12 +26,12 @@ public class HeapSort {
             swap(heap,parentIndex);
         }
     }
-    public static void heap(int[]heap,int num,int currentIndex){
+    private static void heap(int[]heap,int num,int currentIndex){
         heap[currentIndex]=num;
         swap(heap, currentIndex);
 
     }
-    static void reheapify(int[]heap,int parentIndex,int heapSize){
+    private static void reheapify(int[]heap,int parentIndex,int heapSize){
         if((parentIndex * 2) + 1>=heapSize)return;
         else {
             int child1 = (parentIndex * 2) + 1;
@@ -60,7 +67,7 @@ public class HeapSort {
 
 
     }
-    public static void heapify(int[]heap){
+    private static int[] heapify(int[]heap){
         int[]sortedArr=new int[heap.length];
                 int index=0;
         for(int i=heap.length-1;i>=0;i--){
@@ -71,7 +78,7 @@ public class HeapSort {
             size--;
             reheapify(heap,0,size);
         }
-        System.out.println(Arrays.toString(sortedArr));
+       return sortedArr;
 //        int leaf=heap.length-1;
 //
 
@@ -83,12 +90,15 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[]heap={1,1};
-        int currentIndex=0;
-        for(int i=0;i<heap.length;i++){
-            heap(heap,heap[i],currentIndex++);
-        }
-        heapify(heap);
+//        int[]heap={19,193,1,9,-2,0,0};
+//        HeapSort heapSort=new HeapSort();
+//        heap=heapSort.sort(heap);
+
+//        int currentIndex=0;
+//        for(int i=0;i<heap.length;i++){
+//            heap(heap,heap[i],currentIndex++);
+//        }
+//        heapify(heap);
 //        System.out.println(Arrays.toString(heap));
 
 //        heap(heap,26,currentIndex++);
