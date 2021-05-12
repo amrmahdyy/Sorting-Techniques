@@ -1,9 +1,12 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
-	/// write your code here
-
+        RandomGenerator generateArr=new RandomGenerator();
+        int[]arr=generateArr.generateArray(100);
+        System.out.println(Arrays.toString(arr));
     }
 }
