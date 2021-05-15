@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
 
 public class RandomGenerator {
     public  int[] generateArray(int n){

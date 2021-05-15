@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="" />
+    <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +18,7 @@
   </component>
   <component name="ProjectId" id="1rcZz8rU0T4kZRIMImI4D2Fq0ML" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Sorting Techniques" />
@@ -36,6 +38,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SelectionSort" />
+      <module name="Sorting Techniques" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -44,27 +54,28 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RandomGenerator" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1620825726410">
+    <state width="1318" height="151" key="GridCell.Tab.0.bottom" timestamp="1620998390388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620825726410" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1620825726409">
+    <state width="1318" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620998390388" />
+    <state width="1318" height="151" key="GridCell.Tab.0.center" timestamp="1620998390387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620825726409" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1620825726409">
+    <state width="1318" height="151" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620998390387" />
+    <state width="1318" height="151" key="GridCell.Tab.0.left" timestamp="1620998390387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620825726409" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1620825726409">
+    <state width="1318" height="151" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620998390387" />
+    <state width="1318" height="151" key="GridCell.Tab.0.right" timestamp="1620998390387">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620825726409" />
+    <state width="1318" height="151" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620998390387" />
   </component>
 </project>
