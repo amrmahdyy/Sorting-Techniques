@@ -1,4 +1,4 @@
-package com.company;
+import ArrayGenerator.RandomGenerator;
 
 import java.util.Arrays;
 

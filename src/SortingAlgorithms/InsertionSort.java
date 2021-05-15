@@ -1,3 +1,5 @@
+package SortingAlgorithms;
+
 import java.util.Arrays;
 
 public class InsertionSort {
@@ -18,9 +20,9 @@ public class InsertionSort {
             }
         }
     }
-    public static void main(String[]args){
-        int[]arr={-50,20,-89,2124,-5392};
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
-    }
+//    public static void main(String[]args){
+//        int[]arr={-50,20,-89,2124,-5392};
+//        sort(arr);
+//        System.out.println(Arrays.toString(arr));
+//    }
 }

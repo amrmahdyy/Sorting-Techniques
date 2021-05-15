@@ -1,4 +1,6 @@
-package com.company;
+package SortingAlgorithms;
+
+import ArrayGenerator.RandomGenerator;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -19,14 +21,14 @@ public class SelectionSort {
         }
         System.out.println(Arrays.toString(arr));
     }
-    public static void main(String[]args){
-        RandomGenerator randomArr=new RandomGenerator();
-        int[]arr=randomArr.generateArray(10000);
-        Date date_1=new Date();
-        long startDate=date_1.getTime();
-        selectionSort(arr);
-        Date date_2=new Date();
-        long endDate=date_2.getTime();
-        System.out.println((endDate-startDate)/1000.0);
-    }
+//    public static void main(String[]args){
+//        RandomGenerator randomArr=new RandomGenerator();
+//        int[]arr=randomArr.generateArray(10000);
+//        Date date_1=new Date();
+//        long startDate=date_1.getTime();
+//        selectionSort(arr);
+//        Date date_2=new Date();
+//        long endDate=date_2.getTime();
+//        System.out.println((endDate-startDate)/1000.0);
+//    }
 }
