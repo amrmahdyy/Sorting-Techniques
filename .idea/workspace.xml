@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="" />
+    <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/Test_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/Test_100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/Test_1000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests/Test_10000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting Techniques.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting Techniques.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/QuckSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/RandomGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuckSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/QuckSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayGenerator/RandomGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,22 +109,22 @@
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom" timestamp="1621070321225">
+    <state width="1318" height="187" key="GridCell.Tab.0.bottom" timestamp="1621071721910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621070321225" />
-    <state width="1318" height="187" key="GridCell.Tab.0.center" timestamp="1621070321224">
+    <state width="1318" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
+    <state width="1318" height="187" key="GridCell.Tab.0.center" timestamp="1621071721910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621070321224" />
-    <state width="1318" height="187" key="GridCell.Tab.0.left" timestamp="1621070321224">
+    <state width="1318" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
+    <state width="1318" height="187" key="GridCell.Tab.0.left" timestamp="1621071721909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621070321224" />
-    <state width="1318" height="187" key="GridCell.Tab.0.right" timestamp="1621070321224">
+    <state width="1318" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621071721909" />
+    <state width="1318" height="187" key="GridCell.Tab.0.right" timestamp="1621071721910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621070321224" />
+    <state width="1318" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1620070193349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

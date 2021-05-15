@@ -1,5 +1,5 @@
 package SortingAlgorithms;
-
+import java.util.Arrays;
 import java.util.Arrays;
 
 public class HeapSort {
@@ -21,7 +21,7 @@ public class HeapSort {
             int child = heap[currentIndex];
             int parentIndex = (int) Math.ceil((float)currentIndex / 2) - 1;
             if (heap[parentIndex] > child) {
-              swapTwoNums(heap,parentIndex,currentIndex);
+                swapTwoNums(heap,parentIndex,currentIndex);
             }
             swap(heap,parentIndex);
         }
@@ -57,7 +57,7 @@ public class HeapSort {
     }
     private static int[] heapify(int[]heap){
         int[]sortedArr=new int[heap.length];
-                int index=0;
+        int index=0;
         for(int i=heap.length-1;i>=0;i--){
             int size=i+1;
             sortedArr[index++]=heap[0];
@@ -66,7 +66,7 @@ public class HeapSort {
             size--;
             reheapify(heap,0,size);
         }
-       return sortedArr;
+        return sortedArr;
 //        int leaf=heap.length-1;
 //
 
@@ -76,31 +76,5 @@ public class HeapSort {
 
 
     }
-
-//    public static void main(String[] args) {
-////        int[]heap={19,193,1,9,-2,0,0};
-////        HeapSort heapSort=new HeapSort();
-////        heap=heapSort.sort(heap);
-//
-////        int currentIndex=0;
-////        for(int i=0;i<heap.length;i++){
-////            heap(heap,heap[i],currentIndex++);
-////        }
-////        heapify(heap);
-////        System.out.println(Arrays.toString(heap));
-//
-////        heap(heap,26,currentIndex++);
-////        heap(heap,5,currentIndex++);
-////        heap(heap,77,currentIndex++);
-////        heap(heap,1,currentIndex++);
-////        heap(heap,61,currentIndex++);
-////        heap(heap,11,currentIndex++);
-////        heap(heap,59,currentIndex++);
-//
-//
-//
-////        addNumber(heap,1,currentIndex++);
-//
-//    }
 
 }
