@@ -1,4 +1,4 @@
-package com.company;
+package ArrayGenerator;
 
 
 public class RandomGenerator {
