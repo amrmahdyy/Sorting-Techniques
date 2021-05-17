@@ -13,8 +13,8 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class Test_1000 {
-    private int size=1000;
+public class Test_100000 {
+    private int size=100000;
     RandomGenerator arrayGenerator=new RandomGenerator();
     int[]arr= arrayGenerator.generateArray(size);
     @Test
