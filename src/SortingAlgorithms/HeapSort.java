@@ -3,78 +3,42 @@ import java.util.Arrays;
 import java.util.Arrays;
 
 public class HeapSort {
-    public  int[] sort(int[]arr){
-        int currentIndex=0;
-        for(int i=0;i<arr.length;i++){
-            heap(arr,arr[i],currentIndex++);
-        }
-        return heapify(arr);
-    }
-    private static void swapTwoNums(int[]arr,int index1,int index2){
-        int temp = arr[index1];
-        arr[index1] = arr[index2];
-        arr[index2] = temp;
-    }
-    private static void swap(int[]heap,int currentIndex){
-        if(currentIndex<=0)return;
-        else {
-            int child = heap[currentIndex];
-            int parentIndex = (int) Math.ceil((float)currentIndex / 2) - 1;
-            if (heap[parentIndex] > child) {
-                swapTwoNums(heap,parentIndex,currentIndex);
-            }
-            swap(heap,parentIndex);
+    static void heapify(int a[], int n, int i) {
+        int max, child;
+        child = 2 * i + 1;
+        max = i;
+        if (child < n)
+            if (a[child] > a[max])
+                max = child;
+        if (child + 1 < n)
+            if (a[child + 1] > a[max])
+                max = child + 1;
+        if (max != i) {
+            int temp = a[i];
+            a[i] = a[max];
+            a[max] = temp;
+            heapify(a, n, max);
         }
     }
-    private static void heap(int[]heap,int num,int currentIndex){
-        heap[currentIndex]=num;
-        swap(heap, currentIndex);
 
+    static void buildheap(int a[]) {
+        for (int i = a.length / 2 - 1; i >= 0; i--)
+            heapify(a, a.length, i);
     }
-    private static void reheapify(int[]heap,int parentIndex,int heapSize){
-        if((parentIndex * 2) + 1>=heapSize)return;
-        else {
-            int child1 = (parentIndex * 2) + 1;
-            int child2 = (parentIndex * 2) + 2;
-            int parent;
-            if(child2>=heapSize){
-                if(heap[parentIndex]>heap[child1]){
-                    swapTwoNums(heap, child1, parentIndex);
-                    parent = child1;
-                }
-                else return;
-            }
-            else if(heap[child1] < heap[child2]){
-                swapTwoNums(heap, child1, parentIndex);
-                parent=child1;
-            }
-            else {
-                swapTwoNums(heap, child2, parentIndex);
-                parent=child2;
-            }
-            reheapify(heap,parent,heapSize);
+
+    public void heap(int a[]) {
+        buildheap(a);
+        for (int i = a.length - 1; i >= 1; i--) {
+            int temp = a[0];
+            a[0] = a[i];
+            a[i] = temp;
+            heapify(a, i, 0);
         }
     }
-    private static int[] heapify(int[]heap){
-        int[]sortedArr=new int[heap.length];
-        int index=0;
-        for(int i=heap.length-1;i>=0;i--){
-            int size=i+1;
-            sortedArr[index++]=heap[0];
-//            System.out.println(heap[leaf]);
-            swapTwoNums(heap,0,i);
-            size--;
-            reheapify(heap,0,size);
-        }
-        return sortedArr;
-//        int leaf=heap.length-1;
-//
-
-
-//        swapTwoNums(heap,leaf,0);
-//        reheapify(heap,3,leaf);
-
-
-    }
+//    public static void main(String[]args){
+//        int[]arr={5,7,3,1,0,7,7,4};
+//        heap(arr);
+//        System.out.println(Arrays.toString(arr));
+//    }
 
 }

@@ -23,7 +23,7 @@ public class QuckSort {
         swap(arr,startPivot,end);
        return startPivot;
     }
-    public static void quickSort(int[]arr,int start,int end){
+    public  void quickSort(int[]arr,int start,int end){
         if(start<end) {
             int pivotIndex = partition(arr, start, end);
             quickSort(arr, start, pivotIndex - 1);

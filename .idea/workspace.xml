@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Test_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Test_100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Test_1000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Test_10000.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting Techniques.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting Techniques.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/QuckSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/RandomGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/com/company/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuckSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/QuckSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayGenerator/RandomGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayGenerator/RandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayGenerator/RandomGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/QuckSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/QuckSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/SortingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Test_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Test_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Test_1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Test_10000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_10000.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,50 +44,57 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.Test_10000.sort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.HeapSort" />
-      <module name="Sorting Techniques" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.InsertionSort" />
-      <module name="Sorting Techniques" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Sorting Techniques" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test_10000.InsertionSort">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_10000.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_10000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sorting Techniques" />
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.Test_10000" />
-      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_10000.InsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting Techniques" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_10000" />
+      <option name="METHOD_NAME" value="InsertionSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_10000.heapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting Techniques" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_10000" />
+      <option name="METHOD_NAME" value="heapSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_10000.quickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting Techniques" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_10000" />
+      <option name="METHOD_NAME" value="quickSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_10000.selectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sorting Techniques" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_10000" />
+      <option name="METHOD_NAME" value="selectionSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,31 +102,31 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_10000.sort" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="JUnit.Test_10000.InsertionSort" />
+        <item itemvalue="JUnit.Test_10000.selectionSort" />
+        <item itemvalue="JUnit.Test_10000.quickSort" />
+        <item itemvalue="JUnit.Test_10000.heapSort" />
+        <item itemvalue="JUnit.Test_10000" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom" timestamp="1621071721910">
+    <state width="1306" height="185" key="GridCell.Tab.0.bottom" timestamp="1621245427661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
-    <state width="1318" height="187" key="GridCell.Tab.0.center" timestamp="1621071721910">
+    <state width="1306" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621245427661" />
+    <state width="1306" height="185" key="GridCell.Tab.0.center" timestamp="1621245427661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
-    <state width="1318" height="187" key="GridCell.Tab.0.left" timestamp="1621071721909">
+    <state width="1306" height="185" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621245427661" />
+    <state width="1306" height="185" key="GridCell.Tab.0.left" timestamp="1621245427660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621071721909" />
-    <state width="1318" height="187" key="GridCell.Tab.0.right" timestamp="1621071721910">
+    <state width="1306" height="185" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621245427660" />
+    <state width="1306" height="185" key="GridCell.Tab.0.right" timestamp="1621245427661">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1318" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621071721910" />
+    <state width="1306" height="185" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621245427661" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1620070193349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -145,5 +147,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="386" y="271" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1621067726316" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tests/Test_10000.java</url>
+          <line>54</line>
+          <properties class="Tests.Test_10000" method="selectionSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Tests/Test_10000.java</url>
+          <line>70</line>
+          <properties class="Tests.Test_10000" method="InsertionSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

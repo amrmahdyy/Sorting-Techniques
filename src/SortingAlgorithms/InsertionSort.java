@@ -8,7 +8,7 @@ public class InsertionSort {
         arr[i]=arr[left];
         arr[left]=temp;
     }
-    static void sort(int[]arr){
+    public void sort(int[]arr){
 
         for(int i=1;i<arr.length;i++){
             int left=i-1;
@@ -20,9 +20,5 @@ public class InsertionSort {
             }
         }
     }
-//    public static void main(String[]args){
-//        int[]arr={-50,20,-89,2124,-5392};
-//        sort(arr);
-//        System.out.println(Arrays.toString(arr));
-//    }
+
 }
