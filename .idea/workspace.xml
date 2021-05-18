@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8aa676-b95c-44fd-950b-c414eaa59f6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SortingDurations/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingDurations/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tests/Test_100000.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingDurations/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingDurations/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting Techniques/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_1000.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting Techniques/Tests/Test_1000.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sorting Techniques/SortingDurations/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sorting Techniques/SortingDurations/InsertionSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Test_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Test_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Test_1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Test_1000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingDurations/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingDurations/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,25 +51,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.MergeSort" />
+      <module name="Sorting Techniques" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_100000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sorting Techniques" />
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Test_10" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sorting Techniques" />
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Test_1000" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_100000" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +84,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_10.heapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_100000.selectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sorting Techniques" />
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Test_10" />
-      <option name="METHOD_NAME" value="heapSort" />
+      <option name="MAIN_CLASS_NAME" value="Tests.Test_100000" />
+      <option name="METHOD_NAME" value="selectionSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +97,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="JUnit.Test_100000.selectionSort" />
+        <item itemvalue="JUnit.Test_100000" />
         <item itemvalue="JUnit.Test_100000.InsertionSort" />
-        <item itemvalue="JUnit.Test_1000" />
-        <item itemvalue="JUnit.Test_10" />
-        <item itemvalue="JUnit.Test_10.heapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -113,38 +109,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1621278139708" />
-    <state width="1306" height="195" key="GridCell.Tab.0.bottom" timestamp="1621288926836">
+    <state width="1306" height="294" key="GridCell.Tab.0.bottom" timestamp="1621376821276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="195" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621288926836" />
-    <state width="1306" height="195" key="GridCell.Tab.0.center" timestamp="1621288926834">
+    <state width="1306" height="294" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621376821276" />
+    <state width="1306" height="294" key="GridCell.Tab.0.center" timestamp="1621376821276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="195" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621288926834" />
-    <state width="1306" height="195" key="GridCell.Tab.0.left" timestamp="1621288926833">
+    <state width="1306" height="294" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621376821276" />
+    <state width="1306" height="294" key="GridCell.Tab.0.left" timestamp="1621376821276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="195" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621288926833" />
-    <state width="1306" height="195" key="GridCell.Tab.0.right" timestamp="1621288926835">
+    <state width="1306" height="294" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621376821276" />
+    <state width="1306" height="294" key="GridCell.Tab.0.right" timestamp="1621376821276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="195" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621288926835" />
-    <state width="1306" height="198" key="GridCell.Tab.1.bottom" timestamp="1621285441096">
+    <state width="1306" height="294" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621376821276" />
+    <state width="1306" height="198" key="GridCell.Tab.1.bottom" timestamp="1621323864467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621285441096" />
-    <state width="1306" height="198" key="GridCell.Tab.1.center" timestamp="1621285441096">
+    <state width="1306" height="198" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621323864467" />
+    <state width="1306" height="198" key="GridCell.Tab.1.center" timestamp="1621323864467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1621285441096" />
-    <state width="1306" height="198" key="GridCell.Tab.1.left" timestamp="1621285441095">
+    <state width="1306" height="198" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1621323864467" />
+    <state width="1306" height="198" key="GridCell.Tab.1.left" timestamp="1621323864467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1621285441095" />
-    <state width="1306" height="198" key="GridCell.Tab.1.right" timestamp="1621285441096">
+    <state width="1306" height="198" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1621323864467" />
+    <state width="1306" height="198" key="GridCell.Tab.1.right" timestamp="1621323864467">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1621285441096" />
+    <state width="1306" height="198" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1621323864467" />
     <state x="386" y="271" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621067726316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,6 +184,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingDurations/SelectionSort.java</url>
+          <line>5</line>
+          <properties class="SortingDurations.SelectionSort" method="getDuration">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingDurations/InsertionSort.java</url>
+          <line>7</line>
+          <properties class="SortingDurations.InsertionSort" method="getDuration">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tests/Test_10.java</url>

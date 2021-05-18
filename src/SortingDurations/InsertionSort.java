@@ -1,6 +1,8 @@
 package SortingDurations;
 
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.concurrent.TimeUnit;
 
 public class InsertionSort {
     public static double getDuration(int[]arr){
@@ -8,6 +10,6 @@ public class InsertionSort {
         long start = Calendar.getInstance().getTimeInMillis();
         insertionSort.sort(arr);
         long end = Calendar.getInstance().getTimeInMillis();
-        return (end-start)/1000.0;
+        return (end-start);
     }
 }
